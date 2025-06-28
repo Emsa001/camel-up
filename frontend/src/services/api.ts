@@ -2,9 +2,7 @@ import { CharacterName, Player, RawGame, RawPlayer } from "@src/types";
 import axios, { AxiosResponse } from "axios";
 import { toast } from "react-toastify";
 
-export const REACT_APP_HOST = process.env.REACT_APP_LOCAL
-    ? "http://localhost:8080"
-    : "http://20.52.248.39:8080";
+export const REACT_APP_HOST = process.env.REACT_APP_HOST || "http://localhost:8000";
 export const REACT_APP_API_HOST = `${REACT_APP_HOST}/api/v1`;
 
 class ApiService {
