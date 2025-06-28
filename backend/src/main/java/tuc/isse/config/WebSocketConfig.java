@@ -23,7 +23,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/websocket")
-                .setAllowedOrigins("http://localhost:3000", "http://localhost", "http://20.52.248.39", "http://camelup.run.place")
+                .setAllowedOrigins("http://localhost:3000", "http://localhost", "http://20.52.248.39", "http://camelup.run.place", "https://camelup.emanuelscura.me")
                 .withSockJS();
     }
 }
