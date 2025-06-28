@@ -1,0 +1,46 @@
+/* frontend/src/view/components/Game/GameBoard.css */
+.game-board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.game-track-5x5 {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(5, 60px);
+    gap: 5px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.track-field-5x5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.track-field-5x5.corner {
+    background-color: lightblue;
+    color: transparent;
+    border-color: #81d4fa;
+}
+
+/* Für Feld 1 nur rechte Linie */
+.finish-line.field16 {
+    border-right: 3px solid red;
+    border-left: none;
+}
+
+/* Für Feld 16 nur linke Linie */
+.finish-line.field1 {
+    border-left: 3px solid red;
+    border-right: none;
+}

@@ -1,0 +1,11 @@
+node_modules
+build
+.git
+.gitignore
+package-lock.json
+.dockerignore
+Dockerfile
+*.log
+.idea
+target
+postman.json

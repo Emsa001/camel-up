@@ -1,0 +1,20 @@
+{
+  "Home": [
+    "Home_Screen.mp3"
+  ],
+  "Lobby": [
+    "Chillout.mp3",
+    "Exciting.mp3",
+    "Fast.mp3",
+    "Oriental.mp3",
+    "Playful.mp3"
+  ],
+  "Game": [
+    "Choice.mp3",
+    "Flow.mp3",
+    "Mind.mp3",
+    "Mirage.mp3",
+    "Motion.mp3",
+    "Oasis.mp3"
+  ]
+}

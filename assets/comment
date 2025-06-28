@@ -1,0 +1,37 @@
+Overall Feedback:
+    * Nice start: Requirements Engineering including Domain Model and UCs: Great improvement. Looks great
+    * The workflow and Epics / And so on, clould be presented not via slides but directly in the Tool
+    * You could think about changing the ordering......in a way that you do the demonstration of the implementation right after the Epics and USs....if you are able to show the User Story you presented in Taiga after in the implementation...than it would be like a part of the sprint review meeting....pointing to user stories and demonstrating that you have implemented the US direkt in the implementation
+    * YOU NEED TO MUCH TIME
+    * You might save time during the Epic / US and during the detailed strcuture view and you might also safe some time during Domain Model
+    * What is missing: Nothing about the CD/CD Pipeline
+
+--- detail comments 
+
+Folie 11:
+* Ist das das Sprint Kanban Board​
+* Wie ist der Link zum GIT? Also der Link zur Folie 13? Wann passtiert das? D.h. wie ist die Connection zur Kanban Spalte
+
+16: Still the arrows for Update on Client Side are the same as the arrows on server Side, but they mean something different / semantically differnt......
+Same for the arrow to the WebSocket.....that's a normal call, right nocht a Respons....like between Server-Client
+
+Topics: Do public games also have a room code?
+Can someone get a list of all topics and thereby get the information about room-codes?
+
+Slide: Top Structural View:
+    * Names of Interfaces between the components? I don't believe that between Model and Controller there is only one Inteface?
+    * You do not list / name the REST Interfaces between Client / Server
+    * You Do not list / name the Messages, which are passed via the topics...
+    
+    Slide: Structural View Detailed: Syntax of UML is totaly wrong....never saw this choice.....ports are between the components, you do not name interfaces, classes which are on the boundery of the component, a.s.o.
+
+We only expect one detailed structural view to be presented...as you do not have enough time to do more....decide which one you would like to present
+
+
+Slide 21: Looks syntactical correct. Had no chance to double check wheather it is consistent with Structural view and code
+
+Slide 22: Looks syntactical correct.....
+
+Minor Issue:your not naming the protocols your are using as connection between Client / Server....you name REST but not via HTTPS oder HTTP? And so on
+
+Slide 23: Integrate this into the High Level Structural View....that's missing there....the interfaces, etc.
