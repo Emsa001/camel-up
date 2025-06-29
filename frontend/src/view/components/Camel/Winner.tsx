@@ -52,7 +52,7 @@ export const CamelWinner = ({ game }: { game: Game }) => {
                         <p className="text-center text-lg mb-6 text-blue-100">And the winner is...</p>
                         <div className="flex flex-col items-center justify-center">
                             <motion.img
-                                src={`/camel/${winner.color}.jpg`}
+                                src={`/camel/${winner.color}.png`}
                                 alt="Winning Camel"
                                 className="rounded-xl border-4 border-yellow-400 shadow-lg"
                                 initial={{ y: 0 }}

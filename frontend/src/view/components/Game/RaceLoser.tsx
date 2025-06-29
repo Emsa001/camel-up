@@ -32,7 +32,7 @@ export const RaceLoser = () => {
                     >
                         <div className="flex items-center gap-3 min-w-[160px]">
                             <img
-                                src={`/camel/icons/${camel.color.toLowerCase()}.jpg`}
+                                src={`/camel/icons/${camel.color.toLowerCase()}.png`}
                                 alt={`${camel.color} Camel`}
                                 className="object-contain border-2 border-yellow-dark rounded-2xl max-h-[70px]"
                             />
